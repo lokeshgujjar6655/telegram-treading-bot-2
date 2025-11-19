@@ -8,7 +8,7 @@ TOKEN = ("8315970431:AAFbFj_3EI7vksgEBxJt-uima3f2vV2D1Eo")
 WEBHOOK_URL = "https://your-render-url.onrender.com/webhook"   # CHANGE THIS
 
 bot = telebot.TeleBot(TOKEN, threaded=False)
-app = Flask(_name_)
+app = Flask(__name__)
 
 CHAT_ID = None   # auto detect when user first sends /start
 
