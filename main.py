@@ -31,8 +31,8 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # ---------- Env & OpenAI client ----------
-OPENAI_KEY = os.getenv("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")
-TELEGRAM_TOKEN = os.getenv("8518940185:AAHsookzvoS-o1df5u6UYnQcdcinN2UMpIM")
+OPENAI_KEY = os.getenv("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")
+TELEGRAM_TOKEN = os.getenv("8315970431:AAFbFj_3EI7vksgEBxJt-uima3f2vV2D1Eo")
 
 if not OPENAI_KEY or not TELEGRAM_TOKEN:
     logger.error("Set OPENAI_API_KEY and TELEGRAM_TOKEN environment variables.")
