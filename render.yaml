@@ -5,7 +5,7 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
     envVars:
-      - key: 8518940185:AAHsookzvoS-o1df5u6UYnQcdcinN2UMpIM
+      - key: ("8315970431:AAFbFj_3EI7vksgEBxJt-uima3f2vV2D1Eo")
         sync: false
-      - key:  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
+      - key:  ("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")
         sync: false
